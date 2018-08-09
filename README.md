@@ -42,6 +42,6 @@ To get a development version of the app running follow the steps below:
 5. Make sure that you have SECRET_KEY_BASE set and RAILS_ENV=production in your .rbenv-vars file in the root of the app
 6. Change the server settings in the "/config/deploy/production.rb" file to your server's IP and a user with sudo capability
 7. Run "bundle exec cap production deploy:inital"
-8. SSH into your server and run "rake db:seed"
+8. SSH into your server and run "rake db:seed" 
 9. Navigate to your server's IP in the browser to use the blog app!
 
